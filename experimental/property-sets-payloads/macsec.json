@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "stale": false,
+      "values": {
+        "cak": "\"$9$4baDiqmfzn/.mIESrvMDiHkTzp0BIhS/9lKW87NjHkPz369AOIEn6KM8LN-mf5Q69BIEcreRE-Vw2aJFn6/p0hcr8L7s2\"",
+        "interface": "et-0/0/48",
+        "ckn": "1122334455667788991102132415361748195011621374158617981900F1F2F3"
+      },
+      "id": "c0675abc-6c8c-4b12-90a3-1138bfe4f5ee",
+      "label": "MACSec"
+    }
+  ]
+}
