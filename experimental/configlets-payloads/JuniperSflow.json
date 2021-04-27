@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "configlet": {
+        "display_name": "Juniper_Sflow",
+        "generators": [
+          {
+            "config_style": "junos",
+            "section": "system",
+            "section_condition": null,
+            "filename": "",
+            "template_text": "protocols {\n    sflow {\n        polling-interval {{pi}};\n        sample-rate {\n            ingress {{ingress_sample_rate}};\n            egress {{egress_sample_rate}};\n        }\n        collector {{collector_ip}} {\n            udp-port {{udp_port}};\n        }\n        interfaces {{interface1}};\n        interfaces {{interface2}};\n        interfaces {{interface3}};\n    }\n}",
+            "negation_template_text": ""
+          }
+        ]
+      },
+      "id": "9fff5696-0223-4f4a-9f17-1552c0b9460a",
+      "condition": "role in [\"leaf\"] or id in [\"527c7795-4e0c-4e07-b50f-7bd6788a4766\"]",
+      "label": "Juniper_Sflow"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "stale": false,
+      "values": {
+        "collector_ip": "192.168.1.226",
+        "interface1": "xe-0/0/0",
+        "interface3": "xe-0/0/2",
+        "interface2": "xe-0/0/1",
+        "udp_port": "6343",
+        "egress_sample_rate": "1000",
+        "pi": "5",
+        "ingress_sample_rate": "1000"
+      },
+      "id": "846ca805-7c83-44d3-97b0-47217136420c",
+      "label": "Juniper_Sflow"
+    }
+  ]
+}

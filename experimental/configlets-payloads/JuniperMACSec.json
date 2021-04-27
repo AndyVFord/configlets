@@ -16,7 +16,7 @@
       },
       "id": "e1c2fa2a-a05d-420c-bd39-6e47a27f2753",
       "condition": "role in [\"leaf\"] or id in [\"e4dbe480-0aca-4be4-aa9a-9ec02af950da\"]",
-      "label": "MACSec"
+      "label": "JuniperMACSec"
     }
   ]
 }
